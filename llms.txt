@@ -1,0 +1,19 @@
+# SafeSkill
+
+> 危险命令、反向 Shell、凭据暴露、提示词注入、数据外泄、敏感文件访问、动态代码执行、权限升级、弱加密与低安全实践。
+
+作者：AI 酋长 Andy（Andy Liu，GitHub https://github.com/AIPMAndy ，X https://x.com/AIPMAndy ，个人网站 https://metaver.vip/ ）
+
+## Docs
+
+- [README](https://github.com/AIPMAndy/safeskill/blob/main/README.md): 项目说明（中文）
+- [README_EN.md](https://github.com/AIPMAndy/safeskill/blob/main/README_EN.md): English README
+- [ROADMAP.md](https://github.com/AIPMAndy/safeskill/blob/main/ROADMAP.md): 路线图
+- [SECURITY.md](https://github.com/AIPMAndy/safeskill/blob/main/SECURITY.md): 安全说明
+- [CHANGELOG.md](https://github.com/AIPMAndy/safeskill/blob/main/CHANGELOG.md): 更新记录
+
+## Optional
+
+- [Repository](https://github.com/AIPMAndy/safeskill)
+- [LICENSE](https://github.com/AIPMAndy/safeskill/blob/main/LICENSE)
+- [Author on GitHub](https://github.com/AIPMAndy)

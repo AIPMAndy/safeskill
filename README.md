@@ -21,6 +21,8 @@
 
 </div>
 
+> 作者：AI 酋长 Andy（[GitHub @AIPMAndy](https://github.com/AIPMAndy) · [X @AIPMAndy](https://x.com/AIPMAndy) · [metaver.vip](https://metaver.vip/)）
+
 ---
 
 ## 为什么会有 SafeSkill？
@@ -356,6 +358,28 @@ GitHub: [@AIPMAndy](https://github.com/AIPMAndy)
 - [pyproject.toml](pyproject.toml) — 标准 Python 包配置
 
 ---
+
+## 常见问题 FAQ
+
+### SafeSkill 能扫出哪些风险？
+
+危险命令、反向 Shell、凭据暴露、提示词注入、数据外泄、敏感文件访问、动态代码执行、权限升级、弱加密与低安全实践。
+
+### 扫描结果是什么样的？
+
+风险发现项、风险等级（Critical / High / Medium / Low / Clean）、0-100 风险分数，可输出 text、markdown、json、sarif 报告。
+
+### 能接入 GitHub Actions 吗？
+
+能。README 有 GitHub Actions 集成示例，sarif 输出可上传到 GitHub Code Scanning。
+
+### 能替代代码审计吗？
+
+不能。SafeSkill 是 Skill 的静态安全扫描器（SAST），用来在安装前先挡住最常见的高风险模式。
+
+### 怎么自定义规则？
+
+用 `.safeskill.yml` 配置扫描扩展名、排除目录、禁用规则、覆盖 severity 和添加自定义规则。
 
 <!-- andy-author-card:start -->
 ## 作者 / About the author
